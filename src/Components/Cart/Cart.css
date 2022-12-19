@@ -1,0 +1,19 @@
+.item{
+    margin-top: 20px;
+}
+/* .item img{
+    height: 160px;
+    width: 240px;
+} */
+.card-btn{
+    border: none;
+    background-color: rgb(167, 167, 167);
+    border-radius:5px;
+}
+.card-btn:hover{
+    background-color: rgb(84, 78, 78);
+}
+/* .cart{
+    position: sticky;
+    top: 0px;
+} */

@@ -1,0 +1,46 @@
+.blog-name{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 30px 30px 30px 70px;
+    font-family:monospace;
+    font-size: 40px;
+    margin-top: 0;
+}
+.props-state{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ques-ans{
+    background-color: rgb(216, 239, 240);
+    border-radius: 8px;
+    margin: 20px 50px;
+}
+.ques{
+    padding: 20px 20px 20px 90px;
+    background-color: rgb(222, 222, 222);
+    margin-bottom: 0;
+}
+.ans{
+    padding: 30px;
+    background-color: azure;
+    margin: 0px 30px 30px 30px;
+    border-radius:0px  0px 20px 20px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    color: rgb(245, 211, 199);
+    padding: 30px;
+}
+
+@media only screen and (max-width: 760px) {
+    .props-state{
+    display:flex;
+    flex-direction: column;
+}
+    .ques{
+    padding: 15px 15px 15px 40px;
+    background-color: rgb(51, 142, 145);
+    margin-bottom: 0;
+}
+}

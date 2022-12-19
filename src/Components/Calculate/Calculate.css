@@ -1,0 +1,89 @@
+.my-delails{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10px;
+}
+.my-img{
+    margin-top: 10px;
+}
+.my-img img{
+    height: 80px;
+    width: 60px;
+    display: flex;
+    margin: auto;
+    border-radius: 7px;
+}
+.my-name{
+    display: flex;
+    margin: auto;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.details div{
+    background-color: rgb(227, 225, 225);
+    padding: 5px;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+/* break */
+.break-section{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-style: italic;
+}
+.break-time{
+    background-color: rgb(227, 225, 225);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 5px;
+    
+}
+.time{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(208, 208, 208);
+}
+.time:hover{
+    background-color: rgb(139, 139, 139);
+}
+/* activity detail */
+.count-section{
+    margin: 35px;
+    font-style: italic;
+}
+.activity-time{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color:rgb(213, 214, 213);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+.final-button{
+    background-color: rgb(54, 54, 54);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin:1% 10% ;
+    padding: 17px 35px;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 10px;
+}
+.final-button:hover{
+    background-color: rgb(124, 124, 124);
+    color: white;
+}
+/* .calculate-position{
+    position: sticky;
+    top: 0px;
+} */
+.calculate-position{
+    position: sticky;
+    top: 0px;
+}
